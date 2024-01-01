@@ -1,7 +1,22 @@
-body {
+@font-face {
+    font-family: Christmas;
+    src: url(MerryChristmasColorRegular-ELxn.ttf);
+}
+
+@font-face {
+    font-family: Big_Bottom;
+    src: url(Big_Bottom_Typeface_Normal.ttf);
+}
+
+:root {}
+
+body,
+html {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    background-image: url(Bg.jpg);
 }
 
 .container {
@@ -9,7 +24,8 @@ body {
     margin: 0 auto;
 }
 
-header, footer {
+header,
+footer {
     background-color: #3498db;
     color: #fff;
     padding: 10px 0;
@@ -27,4 +43,39 @@ footer {
     text-align: center;
 }
 
+
 /* Add more styles based on your creativity and design preferences */
+
+.bg-primary {
+    --bs-bg-opacity: 0;
+}
+
+.christmas {
+    font-family: Christmas;
+}
+
+.hello-farmer {
+    font-family: Big_Bottom;
+}
+
+.cc-bg {
+    color: white;
+}
+
+.sky {
+    height: 100%;
+}
+
+.glow {
+    text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 20px #fff;
+}
+
+.madlib-text {
+    color: white;
+    font-size: calc(.6rem + 1vw);
+}
+
+.house {
+    width: 100%;
+}
+
